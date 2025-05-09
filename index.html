@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vegas Slot Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Landing Screen -->
+    <div class="landing-screen" id="landing">
+        <h1 class="flicker-text">Are you ready?</h1>
+        <button id="start-button">START</button>
+    </div>
+
+    <!-- Slot Machine Game -->
+    <div class="slot-machine-container">
+        <div class="jackpot-display" id="credits">CREDITS: 5</div>
+
+        <div class="slot-machine">
+            <div class="reel" id="reel1"></div>
+            <div class="reel" id="reel2"></div>
+            <div class="reel" id="reel3"></div>
+            <div class="handle"></div>
+        </div>
+
+        <button id="handle">Press Me</button>
+        <div id="message"></div>
+    </div>
+
+    <!-- Sound FX -->
+    <audio id="coin-sound" src="sounds/coin.mp3"></audio>
+    <audio id="slot-sound" src="sounds/slot.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
